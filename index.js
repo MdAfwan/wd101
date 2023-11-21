@@ -9,8 +9,8 @@ function mad() {
 }
 
 const dobInput = document.getElementById('dob');
-dobInput.setAttribute('min', minDate());
-dobInput.setAttribute('max', maxDate());
+dobInput.setAttribute('min', md());
+dobInput.setAttribute('max', mad());
 
 let userForm = document.getElementById("userForm");
 
