@@ -1,9 +1,9 @@
-function minDate() {
+function md() {
     const today = new Date();
     return new Date(today.getFullYear() - 55, today.getMonth(), today.getDate()).toISOString().split('T')[0];
 }
 
-function maxDate() {
+function mad() {
     const today = new Date();
     return new Date(today.getFullYear() - 18, today.getMonth(), today.getDate()).toISOString().split('T')[0];
 }
